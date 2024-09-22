@@ -58,12 +58,12 @@ Each test file contains:
 
 Example Input:
 
-3
-0 3
-0 3
-0 3
-0 3
-4 6
+    3
+    0 3
+    0 3
+    0 3
+    0 3
+    4 6
 
 # Output Format
 The program logs various events during the simulation, including:
@@ -74,15 +74,16 @@ The program logs various events during the simulation, including:
   - Queue updates: When students are added or fetched from the queue.
 
 Example Output:
-Added customer <student ID: 1>, queue size: 1
-Sit <student ID: 1> at Table 1
-Customer <ID: 1> is eating for 3 seconds at Table 1
-Added customer <student ID: 2>, queue size: 1
-Sit <student ID: 2> at Table 2
-Customer <ID: 2> is eating for 3 seconds at Table 2
-...
-Leave <student ID: 1> Turnaround <-20784> Wait <0> at Table 1
-Leave <student ID: 2> Turnaround <-20784> Wait <0> at Table 2
+
+    Added customer <student ID: 1>, queue size: 1
+    Sit <student ID: 1> at Table 1
+    Customer <ID: 1> is eating for 3 seconds at Table 1
+    Added customer <student ID: 2>, queue size: 1
+    Sit <student ID: 2> at Table 2
+    Customer <ID: 2> is eating for 3 seconds at Table 2
+    ...
+    Leave <student ID: 1> Turnaround <-20784> Wait <0> at Table 1
+    Leave <student ID: 2> Turnaround <-20784> Wait <0> at Table 2
 
 # Test Files
 The folder of test files contains various scenarios with the same format:
