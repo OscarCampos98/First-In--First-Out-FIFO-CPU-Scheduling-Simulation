@@ -90,6 +90,18 @@ The folder of test files contains various scenarios with the same format:
     - A single quantum value followed by arrival and eating times.
 These files allow you to test different cases for student arrival sequences and varying eating durations.
 
+the files are the following:
+    - allsync.txt
+    - fileonlyend.txt
+    - general1.txt
+    - lessthanq.txt
+    - nquantams.txt
+    - qconvoy.txt
+    - qplus.txt
+    - queueonlyend.txt
+    
+    
+
 # Platform
 This program has been tested on WSL Ubuntu, a Windows Subsystem for Linux (WSL) environment. It should work on other Linux-based environments as well.
 
